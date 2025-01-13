@@ -1,0 +1,160 @@
+
+body {
+    font-family: 'Noto Sans Lao', sans-serif; /* ใช้ฟอนต์ Noto Sans Lao */
+    line-height: 1.6; /* ปรับระยะห่างระหว่างบรรทัด */
+    color: #333; /* สีข้อความ */
+    margin: 20px; /* เพิ่มระยะขอบ */
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    background: #f7611b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.profile-section, .form-section {
+    background: #19c5f0;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    background: #19c5f0;
+}
+
+.profile-image {
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+video {
+    padding: 20px;
+    display: flex; /* ใช้ Flexbox จัดเรียงรูปภาพ */
+    gap: 10px; /* ระยะห่างระหว่างรูปภาพ */
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #69b3f2;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #4a90e2;
+}
+.img-container { 
+    padding: 20px;
+    display: flex; /* ใช้ Flexbox จัดเรียงรูปภาพ */
+    gap: 10px; /* ระยะห่างระหว่างรูปภาพ */
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+/* จัดการรูปภาพ */
+.img-container img {
+    width: 300px; /* กำหนดความกว้างของรูปภาพ */
+    height: auto; /* ให้ความสูงอัตโนมัติ */
+    border-radius: 5px; /* มุมโค้งเล็กน้อย */
+
+}
+
+/* กำหนดข้อความหัวข้อ */
+h2 {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+.con{
+    background: #69b3f2;
+    border-radius: 10px;
+}
+.education-section{
+    background: #0de731;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.family-section{
+    background: #fd12f1;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.video-section{
+    background: #fceb08;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.ccs{
+    background: #1ee2a1;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.education-section h2 {
+    text-decoration: underline;
+}
+.family-section h2{
+    text-decoration: underline;
+}
+.con h2{
+    text-decoration: underline;
+}
+.video-section h2{
+
+ text-decoration: underline;
+}
+.form-section h2{
+    text-decoration: underline;
+}
